@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amin Boulouma's Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss" >
+        .navitems>li>a {
+            @apply p-4 hover:bg-gray-700 rounded-lg flex items-center gap-2
+        }
+    </style>
+</head>
+
+<body class="">
+
+  <header class="flex items-center bg-gray-800 justify-between px-8 h-20 text-white sticky top-0 z-50">
+    <logo>
+        <a class="flex items-center gap-1" href="">
+            <img class="h-10 -mt-1 rounded-full object-cover" src="https://media.licdn.com/dms/image/v2/D4D03AQE7o3agLWMtvQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723026751692?e=2147483647&v=beta&t=Vnd4btVxQHnhwigPcOL0gr7_fQl3Y93oPx7COfzAJXo" alt="Amin Boulouma, Software Engineer"/>            
+            <span>Amin Boulouma</span>
+        </a>
+
+    </logo>
+    <nav>
+        <ul class="flex items-center navitems">
+            <li><a href="">Home</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Resume</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">
+                Services
+                <img class="w-4" src="https://img.icons8.com/ios/50/777777/expand-arrow--v1.png" alt="expand-arrow--v1"/>
+            </a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+
+</body>
+
+</html>
